@@ -1,0 +1,53 @@
+/* service_textbook */
+.service_textbook{z-index: 1;padding-top: 70px}
+.service_textbook h3{text-align: center;font-size: 26px}
+
+/* service_textbook_wrap */
+.service_textbook_wrap{width: 960px;margin-top: 30px}
+
+/* textbook_search_wrap */
+.textbook_search_wrap{width: 469px;margin: 0 auto 20px}
+#select_license{width: 100px;height: 30px;margin-right: 10px;padding-left: 30px;border: 1px solid #bce1ff;border-radius: 20px;box-sizing: border-box}
+#search_val{width: 70px;height: 30px;margin-right: 10px;border: 1px solid #bce1ff;border-radius: 20px;box-sizing: border-box}
+.search_name{width: 200px;height: 30px;margin-right: 10px;border-bottom: 2px solid #bce1ff}
+.search_textbook_btn{display: inline-block;width: 60px;height: 30px;background: #bce1ff;border-radius: 20px}
+
+/* service_textbook table */
+.service_textbook table{width: 960px;border-top: 1px solid #55616e;border-bottom: 1px solid #55616e}
+.service_textbook table td{position: relative;border: 0}
+.service_textbook table td > .textbook_info2{position: relative;height: 124px;margin: 30px;overflow: hidden;white-space: nowrap;text-overflow: ellipsis}
+.textbook_img{display: block;width: 91px;height: 124px;border: 2px solid #55616e;box-sizing: border-box}
+.textbook_name{position: absolute;top: 5px;left: 110px;width: 100px;}
+.textbook_name > .name_img{display: block;position: absolute;top: 0;width: 19px;background: url(../img/service_textbook/service_textbook_img.gif) no-repeat;text-indent: -9999px}
+.textbook_name > .name{display: block;position: absolute;top: 0;left: 30px}
+.textbook_pub{position: absolute;width: 100%;top: 5px;left: 107px}
+.textbook_pub > .pub_img{display: block;position: absolute;top: 30px;width: 23px;background: url(../img/service_textbook/service_textbook_img2.gif) no-repeat;text-indent: -9999px}
+.textbook_pub > .pub{display: block;position: absolute;top: 30px;left: 32px}
+.textbook_author{position: absolute;top: 5px;left: 109px;width: 100%}
+.textbook_author > .author_img{display: block;position: absolute;top: 60px;width: 21px;background: url(../img/service_textbook/service_textbook_img3.gif) no-repeat;text-indent: -9999px}
+.textbook_author > .author{display: block;position: absolute;top: 60px;left: 30px}
+.sub_link{position: absolute;top: 90px;left: 100px}
+/* textbook_img */
+.diat_img{background: url(../img/service_textbook/diat_img.jpg) no-repeat}
+.diat_img2{background: url(../img/service_textbook/diat_img2.jpg) no-repeat}
+.diat_img3{background: url(../img/service_textbook/diat_img3.jpg) no-repeat}
+.diat_img4{background: url(../img/service_textbook/diat_img4.jpg) no-repeat}
+.diat_img5{background: url(../img/service_textbook/diat_img5.jpg) no-repeat}
+.searchad_img{background: url(../img/service_textbook/searchad_img.jpg) no-repeat}
+/* textbook_info */
+.info_name{font-size: 15px}
+.info_name2{font-size: 14px}
+.textbook_info1{z-index: 1;display: none;position: absolute;top: 20px;left: 140px;padding: 20px;border: 1px solid #55616e;background: #fff;box-shadow: 0px 0px 5px #222;box-sizing: border-box}
+
+/* problem_pager */
+.textbook_pager{width: 255px;overflow: hidden;margin: 30px auto 0}
+.textbook_pager a, .textbook_pager ul{float: left;margin: 0 5px}
+.textbook_pager > ul > li{float: left}
+.textbook_pager > ul > li a{display: block;width: 25px;height: 25px;text-indent: -9999px}
+.pager_prev{display: block;width: 25px;height: 25px;background: url(../img/pager/pager_prev.png) no-repeat;text-indent: -9999px}
+.pager_next{display: block;width: 25px;height: 25px;background: url(../img/pager/pager_next.png) no-repeat;text-indent: -9999px}
+.pager_no1{background: url(../img/pager/pager_no1.png) no-repeat}
+.pager_no2{background: url(../img/pager/pager_no2.png) no-repeat}
+.pager_no3{background: url(../img/pager/pager_no3.png) no-repeat}
+.pager_no4{background: url(../img/pager/pager_no4.png) no-repeat}
+.pager_no5{background: url(../img/pager/pager_no5.png) no-repeat}

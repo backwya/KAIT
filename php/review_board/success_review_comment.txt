@@ -1,0 +1,18 @@
+DB: testdb
+테이블 이름
+review_comment
+
+번호 / comment_no / int unsigned / primary key auto_increment
+게시판 번호 / review_no / int unsigned / not null
+내용 / comment_content / text / not null
+아이디 / comment_uid / varchar(30) / not null
+작성일 / comment_date / datetime / not null
+
+// 테이블 생성
+create table review_comment(
+comment_no int unsigned primary key auto_increment,
+review_no int unsigned not null,
+comment_content text not null,
+comment_uid varchar(30) not null,
+comment_date datetime not null
+);

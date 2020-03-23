@@ -1,0 +1,47 @@
+﻿* 데이터베이스*
+use testDB;
+
+** 입력 항목 **
+* 항목 | 필드명 | 데이터타입(길이값) | 제약
+일련번호 | idx | int | pk, ai
+아이디 | uid | varchar(12) | nn
+비밀번호 | pwd | varchar(12) | nn
+이름 | uname | varchar(10) | nn
+생년월일 | birth | date | nn
+성별 | gender | char(1) | nn
+휴대폰번호 | mobile | varchar(11) | nn
+SMS수신동의 | mobile_check | varchar(3) | nn
+이메일 | email | varchar(50) | nn
+이메일수신동의 | email_check | varchar(3) | nn
+주소 | address | varchar(50) | nn
+우편번호 | post | char(6) | nn
+상세주소 | add_detail | varchar(100) | n
+접수구분 | accept | char(4) | nn
+가입일 | reg_date | datetime | 
+
+** 테이블 이름 **
+members
+
+* 테이블 생성 *
+create table members(
+    idx int primary key auto_increment,
+    uid varchar(12) not null unique,
+    pwd varchar(12) not null,
+    uname varchar(10) not null,
+    birth date not null,
+    gender char(1) not null,
+    mobile varchar(11) not null,
+    mobile_check char(1) not null,
+    email varchar(50) not null,
+    email_check char(1) not null,
+    address varchar(50) not null,
+    post char(6) not null,
+    add_detail varchar(200) null,
+    accept char(4) not null,
+    reg_date datetime
+);
+
+* 관리자 생성 *
+insert into members(uid,pwd,uname,gender) values('admin','000000','관리자','W');
+* 공백 *
+insert into members values('','', '', '', '', '', '', '', '', '', '', '', '', '', '');

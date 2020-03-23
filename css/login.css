@@ -1,0 +1,19 @@
+/* login */
+.form_border{width: 600px;height: 420px;margin: auto;margin-top: 100px;border: 1px dashed #bce1ff;box-sizing: border-box}
+legend{position: absolute;top: -9999px;left: -9999px}
+.login_uid{display: block;width: 450px;height: 50px;border-bottom: 2px solid #7ac3ff;margin: 30px auto 0;box-sizing: border-box;font-size: 16px;text-indent: 10px}
+#uid_txt{display: block;width: 450px;margin: auto}
+.login_pwd{display: block;width: 450px;height: 50px;border-bottom: 2px solid #7ac3ff;margin: 30px auto 0;box-sizing: border-box;font-size: 16px;text-indent: 10px}
+#pwd_txt{display: block;width: 450px;margin: auto}
+input[id="uid_save"]+label{display: block;width: 100px;height: 20px;background: url(../img/btn_checkbox.jpg) no-repeat;text-indent: 30px;margin: 30px 0 0 75px;cursor: pointer}
+input[id="uid_save"]:checked+label{display: block;width: 100px;height: 20px;background: url(../img/btn_check.jpg) no-repeat;margin: 30px 0 0 75px;cursor: pointer}
+input[id="uid_save"]{display: none}
+.btn_login{display: block;width: 450px;height: 50px;background: none;border: 1px solid #7ac3ff;font-size: 22px;margin: 30px auto 0;box-sizing: border-box}
+.social_login{width: 450px;overflow: hidden;margin: 30px auto 0}
+.social_login a{float: left;width: 50px;height: 38px;padding: 10px 70px}
+/*.login_google{display: block;width: 200px;height: 50px;margin-right: 50px;background: url(../img/login_google.jpg)no-repeat;text-indent: -9999px}*/
+/*.login_naver{display: block;width: 200px;height: 50px;background: url(../img/login_naver.jpg)no-repeat;text-indent: -9999px}*/
+
+/* atc */
+.atc{margin: 30px 0 50px;text-align: center}
+.atc a{margin: 0 20px;font-size: 14px}

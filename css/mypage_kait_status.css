@@ -1,0 +1,19 @@
+/* mypage_kait */
+.mypage_kait{z-index: 1;padding-top: 70px}
+.mypage_kait h3{text-align: center;font-size: 26px}
+
+/* mypage_kait_wrap */
+.mypage_kait_wrap{width: 960px;margin-top: 30px}
+.mypage_kait_wrap table{width: 960px;margin-top: 30px}
+.sub_txt_name2{margin: 10px 0 0 40px}
+.sub_txt{margin: -20px 0 0 65px}
+
+/* display_color */
+.display_color{padding: 20px;border: 2px solid #78afde;box-sizing: border-box}
+.display_color span{display: block;float: left;height: 19px;margin: 15px 30px 0;font-size: 14px;text-indent: 30px;line-height: 17px}
+.display_color .display_img{display: block;width: 57px;height: 48px;margin: 0 30px;background: url(../img/mypage_img.gif) no-repeat}
+.display_gray{background: url(../img/mypage_display_gray.gif) no-repeat}
+.display_blue{background: url(../img/mypage_display_blue.gif) no-repeat}
+.display_black{background: url(../img/mypage_display_black.gif) no-repeat}
+.display_org{background: url(../img/mypage_display_org.gif) no-repeat}
+.display_red{background: url(../img/mypage_display_red.gif) no-repeat}

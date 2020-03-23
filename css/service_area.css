@@ -1,0 +1,7 @@
+/* service_advice */
+.service_area{z-index: 1;padding-top: 70px}
+.service_area h3{text-align: center;font-size: 26px}
+
+/* service_advice_wrap */
+.service_area_wrap table{width: 960px;margin-top: 30px}
+.service_area_wrap table caption{font-size: 18px}

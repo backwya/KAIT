@@ -1,0 +1,15 @@
+/* issuance_kait */
+.issuance_kait{z-index: 1;padding-top: 70px}
+.issuance_kait h3{text-align: center;font-size: 26px}
+
+/* issuance_kait_wrap */
+.issuance_kait_wrap{width: 960px;margin-top: 30px}
+.issuance_kait_index{display: block;width: 960px;height: 70px;background: url(../img/issuance_index.gif) no-repeat;text-indent: -9999px;box-sizing: border-box}
+.issuance_kait_wrap table caption{margin-top: 30px}
+
+/* kait_type */
+.kait_type_form_wrap{width: 320px;margin: 50px auto 0}
+#kait_type{width: 200px;height: 30px;margin: 0 60px;padding-left: 40px;border: 1px solid #bce1ff;border-radius: 20px;}
+.kait_btn_wrap button{float: left;margin-top: 20px}
+.kait_apply{width: 150px;height: 40px;background: #bce1ff;margin-right: 20px}
+.kait_pay{width: 150px;height: 40px;background: #55616e;color: #fff}

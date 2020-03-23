@@ -1,0 +1,13 @@
+/* service_notice */
+.service_notice{z-index: 1;padding-top: 80px}
+.service_notice h3{text-align: center;font-size: 26px}
+/* service_notice_wrap */
+.service_notice_wrap{margin-top: 30px}
+.service_notice_wrap form legend{position: absolute;top: -9999px;left: -9999px}
+#hidden+label{display: none}
+#notice_name{display: block;width: 960px;height: 50px;background:  #55616e;text-align: center;font-size: 18px;line-height: 50px;color: #fff}
+#notice_name::placeholder{color: #fff}
+#notice_content{display: block;width: 960px;height: 500px;margin-top: 10px;padding: 30px;resize: none;font-size: 14px;box-sizing: border-box}
+#notice_name+label{display: none}
+.btn_wrap{width: 186px;margin: auto}
+.btn_wrap button{display: inline-block;width: 50px;height: 30px;margin: 20px 5px 0;background: #55616e;text-align: center;line-height: 30px;color: #fff}

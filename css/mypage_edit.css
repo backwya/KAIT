@@ -1,0 +1,72 @@
+/* all */
+#pwd_txt,#repwd_txt,#birth_txt,#gender_txt,#mobile_txt,#sms_check_txt,#email_txt,#email_check_txt,#address_txt,#accept_txt,#agree_txt{display: block;margin-top: 5px;color: #ff7675}
+#gender_txt{clear: both;display: block;padding-top: 5px}
+#sms_check_txt{clear: both;display: block;padding-top: 5px}
+#email_check_txt{clear: both;display: block;padding-top: 5px}
+#accept_txt{clear: both;display: block;padding-top: 5px}
+.sign{color: #ff7675}
+
+/* register_info */
+form{margin-top: 100px;border: 1px dashed #7ac3ff;box-sizing: border-box}
+fieldset{position: relative;width: 500px;margin: auto}
+legend{position: absolute;top: -9999px;left: -9999px}
+form input{display: block;margin-top: 5px}
+form p{margin-top: 30px}
+.overflow_hidden{overflow: hidden}
+#uid{display: block;font-size: 16px;text-indent: 10px}
+#pwd{width: 500px;height: 30px;border-bottom: 2px solid #7ac3ff;box-sizing: border-box;font-size: 16px;text-indent: 10px}
+#repwd{width: 500px;height: 30px;border-bottom: 2px solid #7ac3ff;box-sizing: border-box;font-size: 16px;text-indent: 10px}
+#uname{display: block;font-size: 16px;text-indent: 10px}
+#birth{width: 500px;height: 30px;border-bottom: 2px solid #7ac3ff;box-sizing: border-box;font-size: 16px;text-indent: 10px}
+#m{display: none}
+#w{display: none}
+input[id="m"]+label{display: block;float: left;width: 100px;height: 20px;margin-top: 5px;background: url(../img/btn_checkbox.jpg) no-repeat;text-indent: 30px;cursor: pointer}
+input[id="m"]:checked+label{display: block;float: left;width: 100px;height: 20px;margin-top: 5px;background: url(../img/btn_check.jpg) no-repeat;cursor: pointer}
+input[id="w"]+label{display: block;float: left;width: 100px;height: 20px;margin-top: 5px;background: url(../img/btn_checkbox.jpg) no-repeat;text-indent: 30px;cursor: pointer}
+input[id="w"]:checked+label{display: block;float: left;width: 100px;height: 20px;margin-top: 5px;background: url(../img/btn_check.jpg) no-repeat;cursor: pointer}
+#mobile{width: 430px;height: 30px;border-bottom: 2px solid #7ac3ff;box-sizing: border-box;font-size: 16px;text-indent: 10px}
+#mobile_check{display: inline-block;position: absolute;right: 0;margin-top: -30px;width: 70px;height: 30px;border: 1px solid #7ac3ff;background: #fff}
+#sms_y{display: none}
+#sms_n{display: none}
+input[id="sms_y"]+label{display: block;float: left;width: 100px;height: 20px;margin-top: 5px;background: url(../img/btn_checkbox.jpg) no-repeat;text-indent: 30px;cursor: pointer}
+input[id="sms_y"]:checked+label{display: block;float: left;width: 100px;height: 20px;margin-top: 5px;background: url(../img/btn_check.jpg) no-repeat;cursor: pointer}
+input[id="sms_n"]+label{display: block;float: left;width: 100px;height: 20px;margin-top: 5px;background: url(../img/btn_checkbox.jpg) no-repeat;text-indent: 30px;cursor: pointer}
+input[id="sms_n"]:checked+label{display: block;float: left;width: 100px;height: 20px;margin-top: 5px;background: url(../img/btn_check.jpg) no-repeat;cursor: pointer}
+#email{width: 500px;height: 30px;border-bottom: 2px solid #7ac3ff;box-sizing: border-box;font-size: 16px;text-indent: 10px}
+#email_y{display: none}
+#email_n{display: none}
+input[id="email_y"]+label{display: block;float: left;width: 100px;height: 20px;margin-top: 5px;background: url(../img/btn_checkbox.jpg) no-repeat;text-indent: 30px;cursor: pointer}
+input[id="email_y"]:checked+label{display: block;float: left;width: 100px;height: 20px;margin-top: 5px;background: url(../img/btn_check.jpg) no-repeat;cursor: pointer}
+input[id="email_n"]+label{display: block;float: left;width: 100px;height: 20px;margin-top: 5px;background: url(../img/btn_checkbox.jpg) no-repeat;text-indent: 30px;cursor: pointer}
+input[id="email_n"]:checked+label{display: block;float: left;width: 100px;height: 20px;margin-top: 5px;background: url(../img/btn_check.jpg) no-repeat;cursor: pointer}
+#address{width: 305px;height: 30px;border-bottom: 2px solid #7ac3ff;box-sizing: border-box;font-size: 16px;text-indent: 10px}
+#address_search{display: inline-block;position: absolute;left: 305px;margin-top: -30px;width: 70px;height: 30px;border: 1px solid #7ac3ff;background: #fff}
+.post{position: absolute;right: 52px;margin-top: -53px}
+#post{position: absolute;right: 0;width: 100px;height: 30px;margin-top: -30px;border-bottom: 2px solid #7ac3ff;box-sizing: border-box;font-size: 16px;text-indent: 10px}
+.address_detail{margin-top: 20px}
+#address_detail{width: 500px;height: 30px;border-bottom: 2px solid #7ac3ff;box-sizing: border-box;font-size: 16px;text-indent: 10px}
+#individual{display: none}
+#group{display: none}
+input[id="individual"]+label{display: block;float: left;width: 100px;height: 20px;margin-top: 5px;background: url(../img/btn_checkbox.jpg) no-repeat;text-indent: 30px;cursor: pointer}
+input[id="individual"]:checked+label{display: block;float: left;width: 100px;height: 20px;margin-top: 5px;background: url(../img/btn_check.jpg) no-repeat;cursor: pointer}
+input[id="group"]+label{display: block;float: left;width: 100px;height: 20px;margin-top: 5px;background: url(../img/btn_checkbox.jpg) no-repeat;text-indent: 30px;cursor: pointer}
+input[id="group"]:checked+label{display: block;float: left;width: 100px;height: 20px;margin-top: 5px;background: url(../img/btn_check.jpg) no-repeat;cursor: pointer}
+/* agree */
+.agree{position: relative;width: 500px;margin: 50px auto 0}
+#all_agree{display: none}
+input[id="all_agree"]+label{display: block;width: 200px;height: 20px;margin-top: 5px;background: url(../img/btn_checkbox.jpg) no-repeat;text-indent: 30px;cursor: pointer}
+input[id="all_agree"]:checked+label{display: block;width: 200px;height: 20px;margin-top: 5px;background: url(../img/btn_check.jpg) no-repeat;cursor: pointer}
+.agree_line{display: block;width: 500px;margin: 10px auto;border-top: 1px solid #cbcbcb}
+#agree1{display: none}
+input[id="agree1"]+label{display: block;width: 300px;height: 20px;margin-top: 20px;background: url(../img/btn_checkbox.jpg) no-repeat;text-indent: 30px;cursor: pointer}
+input[id="agree1"]:checked+label{display: block;width: 300px;height: 20px;margin-top: 20px;background: url(../img/btn_check.jpg) no-repeat;cursor: pointer}
+.agree1_more{display: block;position: absolute;right: 0;width: 82px;height: 30px;margin-top: -25px;background: url(../img/agree_more.jpg) no-repeat;text-indent: -9999px}
+#agree2{display: none}
+input[id="agree2"]+label{display: block;width: 300px;height: 20px;margin-top: 20px;background: url(../img/btn_checkbox.jpg) no-repeat;text-indent: 30px;cursor: pointer}
+input[id="agree2"]:checked+label{display: block;width: 300px;height: 20px;margin-top: 20px;background: url(../img/btn_check.jpg) no-repeat;cursor: pointer}
+.agree2_more{display: block;position: absolute;right: 0;width: 82px;height: 30px;margin-top: -25px;background: url(../img/agree_more.jpg) no-repeat;text-indent: -9999px}
+/* button */
+.register_btn{height: 70px;margin-top: 50px;padding-bottom: 20px}
+#btn_edit{float: left;position: absolute;left: 490px;width: 240px;height: 70px;background: #7ac3ff;font-size: 20px}
+#btn_cansle{float: left;position: absolute;left: 230px;width: 240px;height: 70px;background: #282b37;color: #fff;font-size: 20px}
+#btn_del{position: absolute;right:20px;width: 80px;height: 30px;margin-top: -50px;border: 1px solid #7ac3ff;background: #fff}

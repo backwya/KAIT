@@ -1,0 +1,26 @@
+/* success_review */
+.success_review{z-index: 1;padding-top: 80px}
+.success_review h3{text-align: center;font-size: 26px}
+/* success_review_wrap */
+.success_review_wrap{margin-top: 30px}
+.board_name{height: 50px;background:  #55616e;text-align: center;font-size: 18px;line-height: 50px;color: #fff}
+.span_wrap{margin: 10px 0 15px;float: right}
+.board_uid, .board_date{margin-right: 20px}
+.board_content{clear: both;overflow-y:auto ;height: 500px;padding: 30px;border: 2px solid #cbcbcb;font-size: 14px;box-sizing: border-box}
+.board_menu_wrap{width:186px;margin: 20px auto}
+.board_menu_wrap a{display: inline-block;width: 50px;height: 30px;margin: 0 5px;background: #55616e;text-align: center;line-height: 30px;color: #fff}
+.board_menu_wrap a:hover{color: #fff;text-decoration: none}
+.review_board_list a{display: block;width: 50px;height: 30px;margin: 20px auto;background: #55616e;text-align: center;line-height: 30px;color: #fff}
+.review_board_list a:hover{color: #fff;text-decoration: none}
+/* review_comment */
+.review_comment{position: relative;width: 960px;margin-top: 30px;padding: 30px;background: #bce1ff;box-sizing: border-box}
+.review_comment h4{font-size: 16px}
+.comment_sub{position: relative;width: 896px;border: 1px solid #cbcbcb;background: #fff;margin: 10px 0;box-sizing: border-box}
+.comment{margin: 10px}
+.comment_uid{position: relative;padding: 5px;background: #55616e;color: #fff}
+.comment_del{display: block;position: absolute;top: 10px;right: 15px}
+.review_comment legend{position: absolute;top: -9999px;left: -9999px}
+#hidden+label{display: none}
+#hidden{display: none}
+#comment{float: left;width: 760px;height: 100px;resize: none;text-indent: 10px}
+.comment_btn{float: left;width: 100px;height: 100px;margin-left: 30px;background: #55616e;color: #fff;font-size: 16px}

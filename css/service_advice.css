@@ -1,0 +1,22 @@
+/* service_advice */
+.service_advice{z-index: 1;padding-top: 70px}
+.service_advice h3{text-align: center;font-size: 26px}
+.advice_btn{display: block;position: absolute;right: 0;width: 100px;height: 30px;border: 1px solid #bce1ff;text-align: center;line-height: 27px;box-sizing: border-box}
+.advice_btn:hover{color: #222;text-decoration: none}
+
+/* service_advice_wrap */
+.service_advice_wrap table{width: 960px;margin-top: 30px}
+.service_advice_wrap table caption{margin-bottom: 10px;font-size: 18px}
+
+/* advice_pager */
+.advice_pager{width: 255px;overflow: hidden;margin: 30px auto 0}
+.advice_pager a, .advice_pager ul{float: left;margin: 0 5px}
+.advice_pager > ul > li{float: left}
+.advice_pager > ul > li a{display: block;width: 25px;height: 25px;text-indent: -9999px}
+.pager_prev{display: block;width: 25px;height: 25px;background: url(../img/pager/pager_prev.png) no-repeat;text-indent: -9999px}
+.pager_next{display: block;width: 25px;height: 25px;background: url(../img/pager/pager_next.png) no-repeat;text-indent: -9999px}
+.pager_no1{background: url(../img/pager/pager_no1.png) no-repeat}
+.pager_no2{background: url(../img/pager/pager_no2.png) no-repeat}
+.pager_no3{background: url(../img/pager/pager_no3.png) no-repeat}
+.pager_no4{background: url(../img/pager/pager_no4.png) no-repeat}
+.pager_no5{background: url(../img/pager/pager_no5.png) no-repeat}

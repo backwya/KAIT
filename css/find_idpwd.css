@@ -1,0 +1,10 @@
+/* tab_idpwd */
+.find_idpwd .tab_idpwd{position: relative;width: 450px;height: 340px;margin: 100px auto 0}
+.tab_idpwd .find_id{position: absolute;top: 40px;left: 0;width: 450px}
+.find_id h3{position: absolute;top: -40px;left: 0;width: 225px;border: 1px solid #bce1ff;background: #bce1ff;line-height: 40px;text-align: center;box-sizing: border-box;cursor: default}
+.tab_idpwd .find_pwd{position: absolute;top: 40px;left: 0;width: 450px}
+.find_pwd h3{position: absolute;top: -40px;left: 225px;width: 225px;border: 1px solid #bce1ff;background: #fff;line-height: 40px;text-align: center;box-sizing: border-box;cursor: default}
+.find_pwd div{display: none}
+.tab_idpwd .find_mobile{display: block;width: 450px;height: 90px;margin-top: 30px;background: url(../img/find_mobile.jpg) no-repeat;text-indent: -9999px}
+.tab_idpwd span{display: block;margin-top: 30px;border-top: 1px solid #bce1ff;box-sizing: border-box}
+.tab_idpwd .find_email{display: block;width: 450px;height: 90px;margin-top: 30px;background: url(../img/find_email.jpg) no-repeat;text-indent: -9999px}

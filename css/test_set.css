@@ -1,0 +1,10 @@
+/* set_wrap */
+#main > section > .set_wrap{z-index: 0;position: relative;width: 960px;margin-top: 70px}
+#main > section > .set_wrap > h3{text-align: center;font-size: 26px}
+
+/* set */
+#main > section > article > div{position: relative;top: 40px;width: 960px;margin-top: 30px;padding: 30px 30px 50px;border-top: 1px solid #bce1ff}
+#main > section > article > div > h4{position: absolute;top: -40px;left: 400px;width: 160px;height: 40px;border: 1px solid #bce1ff;background: #bce1ff;line-height: 40px;text-align: center;box-sizing: border-box;cursor: default}
+
+/* table */
+.set_table{margin-top: 30px}

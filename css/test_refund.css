@@ -1,0 +1,24 @@
+/* test_refund */
+.test_refund{clear: both;z-index: 1;padding-top: 70px}
+.test_refund h3{text-align: center;font-size: 26px}
+
+/* tab_diat */
+.tab_refund > div > div{padding: 30px;box-sizing: border-box}
+.test_refund .tab_refund{position: relative;width: 960px;height: 730px;margin: 30px 0}
+.tab_refund > div{border-top: 1px solid #bce1ff}
+.tab_refund .refund_way{position: absolute;top: 40px;left: 0;width: 960px}
+.refund_way h4{position: absolute;top: -40px;left: 320px;width: 160px;height: 40px;border: 1px solid #bce1ff;background: #bce1ff;line-height: 40px;text-align: center;box-sizing: border-box;cursor: default}
+.tab_refund .refund_papers{position: absolute;top: 40px;left: 0;width: 960px}
+.refund_papers h4{position: absolute;top: -40px;left: 480px;width: 160px;height: 40px;border: 1px solid #bce1ff;background: #fff;line-height: 40px;text-align: center;box-sizing: border-box;cursor: default}
+.refund_papers > div{display: none}
+
+/* all */
+.tab_refund .txt_ex{display: block;width: 310px;height: 120px;margin-top: 10px;padding: 20px;border: 1px solid #55616e;box-sizing: border-box}
+.sub_txt_name2{background: url(../img/txt_num_ico3.png) no-repeat left 4px}
+.sub_txt2{margin-left: 25px}
+
+/* refund_way */
+.refund_way table caption{font-size: 14px}
+
+/* refund_papers */
+.refund_papers table caption{font-size: 14px}

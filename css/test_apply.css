@@ -1,0 +1,19 @@
+/* test_apply */
+.test_apply{z-index: 1;padding-top: 70px}
+.test_apply h3{text-align: center;font-size: 26px}
+
+/* accept_guide_wrap */
+.test_apply_wrap{width: 960px;margin-top: 30px}
+.test_apply_index{display: block;width: 960px;height: 70px;background: url(../img/test_apply_index.gif) no-repeat;text-indent: -9999px;box-sizing: border-box}
+
+/* all */
+.sub_txt_name{font-size: 16px}
+.sub_txt_name2{margin-left: 20px}
+
+/* table */
+table{width: 960px;margin-top: 10px;text-align: center}
+table caption{position: absolute;top: -9999px;left: -9999px}
+table th, td{padding: 8px}
+.td_apply{border: 1px solid #55616e;background: #bce1ff}
+.td_apply a{display: block;height: auto}
+.td_apply a:hover{color: #222;text-decoration: none}

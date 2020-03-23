@@ -1,0 +1,117 @@
+@media screen and (max-width: 767px){
+/* common */
+#pc{display: none}
+#mobile{display: block}
+
+/* skip_menu */
+.skip_menu{display: none}
+
+/* banner */
+.mobile_banner{position: relative;width: auto;height: auto;background: none}
+.mobile_banner img{width: 100%;height: auto}
+.mobile_banner .banner_del{position: absolute;top: 10px;right: 15px;padding-right: 25px;background: url(../img/mobile/m_banner_close_btn.png) no-repeat right}
+.mobile_banner a:hover{color: #222;text-decoration: none}
+
+/* wrap */
+.mobile_wrap{position: absolute;width: 100%}
+/* header */
+#header{background: #fff}
+#header > h1{width: 110px;height: 60px;margin: -4px auto 0;background: url(../img/mobile/m_header_logo.png) no-repeat center;text-indent: -9999px}
+/* gnb */
+#gnb{z-index: 3;top: auto;height: 0;border-top: 0;border-bottom: 0;background: none}
+#gnb h2{position: absolute;top: -60px;width: 60px;height: 60px;background: url(../img/mobile/m_gnb_btn.jpg) no-repeat;text-indent: -9999px}
+#gnb > ul{display: none;overflow: auto;width: 100%;padding-bottom: 20px;border-bottom: 2px solid #272b36;background: #55616e;box-sizing: border-box}
+#gnb > ul > li{float: none;padding: 2%}
+#gnb > ul > li a{;color: #fff}
+#gnb ul ul{display: none;margin: 2% -2%;padding: 3%;background: #272b36}
+#gnb li li{line-height: 30px}
+#gnb .gnb_qualify{display: block;margin-top: 3%;background: url(../img/mobile/m_gnb_qualify.jpg) no-repeat;text-indent: -9999px}
+#gnb .gnb_test{display: block;background: url(../img/mobile/m_gnb_test.jpg) no-repeat;text-indent: -9999px}
+#gnb .gnb_success{display: block;background: url(../img/mobile/m_gnb_success.jpg) no-repeat;text-indent: -9999px}
+#gnb .gnb_license{display: block;background: url(../img/mobile/m_gnb_license.jpg) no-repeat;text-indent: -9999px}
+#gnb .gnb_customer{display: block;background: url(../img/mobile/m_gnb_customer.jpg) no-repeat;text-indent: -9999px}
+
+/* user_mypage */
+.user_my_page{z-index: 3;position: relative}
+.user_my_page h2{position: absolute;top: -60px;right: 0;width: 60px;height: 60px;background: url(../img/mobile/m_user_mypage_btn.jpg) no-repeat;text-indent: -9999px}
+.user_my_page .user_mypage_wrap{display: none}
+.user_my_page .user_mypage_login{top: 10px;left: auto;right: 0;width: 60px;height: 60px;background: url(../img/mobile/m_mypage_login_btn.png)}
+.user_my_page .user_mypage_reg{top: 80px;left: auto;right: 0;width: 60px;height: 60px;background: url(../img/mobile/m_mypage_reg_btn.png)}
+
+/* main */
+#main{position: relative;margin-top: 0;background: none}
+/* main_ad_content */
+.main_center{width: auto;margin: 0}
+.main_ad1 .main_ad1_img{max-width: 100%;height: auto;background: none}
+.main_ad1 .main_ad1_txt1{top: auto;right: auto;width: auto;height: auto;background: none;text-indent: 0;top: -9999px;left: -9999px}
+.main_ad1 .main_ad_txt{display: none}
+.main_ad2 .main_ad2_img{display: none;max-width: 100%;height: auto}
+.main_ad2 .main_ad2_txt1{position: absolute;top: -9999px;left: -9999px}
+.main_ad2 .main_ad_txt{display: none}
+
+/* license_support */
+.license_support{width: auto;height: auto;margin-top: 30px}
+.license_support > h2{position: absolute;top: -9999px;left: -9999px;width: auto;height: auto;background: none;text-indent: 0}
+.license_support > img{width: 100%;height: auto}
+.license_support ul{position: static;width: 95%;height: auto;margin: auto;padding: 0;background: none}
+.license_support p{margin: 15px}
+.license_support a{float: left}
+.license_linux_txt{height: 30px;padding-left: 50px;background: url(../img/mobile/m_license_linux_ico.png);line-height: 30px}
+.license_diat_txt{height: 30px;padding-left: 50px;background: url(../img/mobile/m_license_diat_ico.png);line-height: 30px}
+.license_searchad_txt{height: 30px;padding-left: 50px;background: url(../img/mobile/m_license_searchad_ico.png);line-height: 30px}
+.license_python_txt{height: 30px;padding-left: 50px;background: url(../img/mobile/m_license_pyhton_ico.png);line-height: 30px}
+.license_support li a{display: block;position: static;right: auto;width: 115px;height: 50px;margin: 15px;background: url(../img/mobile/m_support_more_btn.jpg) no-repeat}
+
+/* test_memo */
+.test_memo{left: auto;width: auto;height: auto;background: none;text-indent: 0}
+.test_memo h2{position: absolute;top: -9999px;left: -9999px}
+.test_memo img{width: 100%;height: auto}
+.test_memo a{top: auto;bottom: 19px;right: 3%;background: url(../img/mobile/m_memo_btn.png)}
+
+/* content_license */
+.content_license{position: relative;top: auto;left: auto;margin-top: 30px}
+.content_license li{float: left;width: 25%;margin-top: -5px}
+.content_license img{width: 100%;height: auto}
+.content_license .license_cert_diat{position: static;top: auto;left: auto;width: auto;height: auto;background: none;text-indent: 0}
+.content_license .license_cert_linux{position: static;top: auto;left: auto;width: auto;height: auto;background: none;text-indent: 0}
+.content_license .license_cert_internet{position: static;top: auto;left: auto;width: auto;height: auto;background: none;text-indent: 0}
+.content_license .license_cert_cps{position: static;top: auto;left: auto;width: auto;height: auto;background: none;text-indent: 0}
+.content_license .license_cert_searchad{position: static;top: auto;left: auto;width: auto;height: auto;background: none;text-indent: 0}
+.content_license .license_cert_csmp{position: static;top: auto;left: auto;width: auto;height: auto;background: none;text-indent: 0}
+.content_license .license_cert_coa{position: static;top: auto;left: auto;width: auto;height: auto;background: none;text-indent: 0}
+.content_license .license_cert_python{position: static;top: auto;left: auto;width: auto;height: auto;background: none;text-indent: 0}
+
+/* content_community */
+.content_community_wrap{padding: 0}
+.content_community{width: auto;height: auto;margin: 0}
+.content_community article{float: none;position: static;width: 100%;height: auto;margin-top: 30px;background: none}
+/* community_notice */
+.community_notice{position: relative;width: 95%;margin: 0;border: 1px solid #cbcbcb;box-sizing: border-box}
+.community_notice h3{padding: 2%;margin-left: 3%;padding-left: 2%;background: url(../img/mobile/m_community_line.jpg) no-repeat left center;text-indent: 0;line-height: normal}
+.community_notice ul{width: 100%;height: auto;padding: 3%;box-sizing: border-box}
+.community_notice li{padding-left: 5%;background: url(../img/mobile/community_no.gif) no-repeat left center}
+.community_notice .community_more{display: block;position: absolute;top: 3%;right: 3%;width: 45px;height: 22px;background: url(../img/mobile/m_community_more_btn.jpg)}
+.community_more:hover{display: none}
+/* community_review */
+.community_review{position: relative;width: 95%;margin: 30px auto 0;border: 1px solid #cbcbcb;box-sizing: border-box}
+.community_review h3{padding: 2%;margin-left: 3%;padding-left: 2%;background: url(../img/mobile/m_community_line.jpg) no-repeat left center;text-indent: 0;line-height: normal;box-sizing: border-box}
+.community_review ul{width: 100%;height: auto;padding: 3%;box-sizing: border-box}
+.community_review li{padding-left: 5%;background: url(../img/mobile/community_no.gif) no-repeat left center}
+.community_review .community_more{display: block;position: absolute;top: 56%;right: 3%;width: 45px;height: 22px;background: url(../img/mobile/m_community_more_btn.jpg)}
+
+/* footer */
+.scroll_top{display: block;height: 40px;margin-top: 50px;background: url(../img/footer_up.gif) #55616e no-repeat center;text-indent: -9999px;line-height: 40px;box-sizing: border-box}
+#footer{z-index: 2;width: auto;margin: 0}
+#footer h2{float: none;position: absolute;top: -9999px;left: -9999px;width: auto;height: auto;margin-top: 0;background: none;text-indent: 0}
+/* footer_user */
+.footer_user h3{position: absolute;top: -9999px;left: -9999px}
+.footer_user ul{width: 50%;margin: 10px auto 0}
+.footer_user li{float: left;position: relative;left: 20%;margin: 0 5%}
+/* footer_terms */
+.footer_terms{position: static;top: auto;left: auto}
+.footer_terms ul{width: 80%;margin: 10px auto 0}
+.footer_terms li{position: relative;left: 10%;margin: 0 3%}
+/* footer_info */
+.footer_info{position: static;top: auto;left: auto}
+.footer_info{position: relative;width: 90%;margin: 10px auto;padding-left: 5%}
+}

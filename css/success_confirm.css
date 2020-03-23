@@ -1,0 +1,16 @@
+/* success_dissent */
+.success_confirm{z-index: 1;padding-top: 70px}
+.success_confirm h3{text-align: center;font-size: 26px}
+
+/* test_table_check_wrap */
+.success_confirm_wrap{width: 960px;margin-top: 30px}
+/* print_guide */
+.print_guide{display: block;position: absolute;left: 140px;width: 110px;height: 30px;padding: 0 5px;border: 1px solid #55616e;text-align: center;line-height: 27px;box-sizing: border-box}
+.print_guide:hover{color: #222;text-decoration: none}
+/* table */
+.success_confirm_wrap table{width: 960px;margin-top: 20px}
+.success_confirm_wrap table caption{margin-bottom: 10px;font-size: 18px}
+
+/* all */
+.success_confirm_wrap .txt_box{display: block;width: 700px;height: 203px;margin-top: 10px;padding: 20px;border: 1px solid #55616e;box-sizing: border-box}
+.sub_txt_name2{background:}

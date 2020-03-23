@@ -1,0 +1,13 @@
+/* service_advice */
+.test_table_check{z-index: 1;padding-top: 70px}
+.test_table_check h3{text-align: center;font-size: 26px}
+.test_table_check_wrap{width: 960px;margin-top: 30px}
+
+/* test_table_check_wrap */
+.test_table_check_wrap table{width: 960px}
+.th_no1{width: 10%}
+.th_no2{width: 30%}
+.th_no3{width: 10%}
+.th_no4{width: 10%}
+.th_no5{width: 20%}
+.th_no6{width: 20%}

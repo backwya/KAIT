@@ -1,0 +1,20 @@
+DB: testdb
+테이블 이름
+review_board
+
+번호 / review_no / int unsigned / primary key auto_increment
+제목 / review_title / varchar(100) / not null
+내용 / review_content / text / not null
+아이디 / review_uid / varchar(30) / not null
+작성일 / review_date / datetime / not null
+조회수 / review_view / int unsigned / not null default 0
+
+// 테이블 생성
+create table review_board(
+review_no int unsigned primary key auto_increment,
+review_title varchar(100) not null,
+review_content text not null,
+review_uid varchar(30) not null,
+review_date datetime not null,
+review_view int unsigned not null default 0
+);

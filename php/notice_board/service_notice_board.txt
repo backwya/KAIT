@@ -1,0 +1,20 @@
+﻿DB: testdb
+테이블 이름
+notice_board
+
+번호 / notice_no / int unsigned / primary key auto_increment
+제목 / notice_title / varchar(100) / not null
+내용 / notice_content / text / not null
+작성일 / notice_date / datetime / not null
+조회수 / notice_view / int unsigned / not null default 0
+
+// unsigned 는 양수만 값을 쓸 수 있다.
+
+// 테이블 생성
+create table notice_board(
+notice_no int unsigned primary key auto_increment,
+notice_title varchar(100) not null,
+notice_content text not null,
+notice_date datetime not null,
+notice_view int unsigned not null default 0
+);

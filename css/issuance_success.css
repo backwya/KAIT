@@ -1,0 +1,14 @@
+/* issuance_success */
+.issuance_success{z-index: 1;padding-top: 70px}
+.issuance_success h3{text-align: center;font-size: 26px}
+
+/* issuance_kait_wrap */
+.issuance_success_wrap{width: 960px;margin-top: 30px}
+.issuance_success_index{display: block;width: 960px;height: 70px;background: url(../img/issuance_success_index.gif) no-repeat;text-indent: -9999px;box-sizing: border-box}
+
+/* all */
+.sub_txt2{margin-left: 20px}
+
+/* issuance_success_btn */
+.issuance_success_btn{width: 100px;margin: 50px auto 0}
+.issuance_success_btn .success_apply{display: block;width: 100px;height: 40px;background: #bce1ff;font-size: 14px;text-align: center;line-height: 38px;color: #222;text-decoration: none}

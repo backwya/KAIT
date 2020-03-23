@@ -1,0 +1,9 @@
+/* mypage_license */
+.mypage_license{z-index: 1;padding-top: 70px}
+.mypage_license h3{text-align: center;font-size: 26px}
+
+/* mypage_license_wrap */
+.mypage_license_wrap{width: 960px;margin-top: 30px}
+.mypage_license_wrap table{width: 960px}
+.sub_txt_name2{margin: 10px 0 0 15px}
+.mypage_license_wrap .license_btn{display: block;width: 200px;height: 40px;margin: 15px 0 0 40px;background: #55616e;color: #fff;text-decoration: none;text-align: center;line-height: 40px}

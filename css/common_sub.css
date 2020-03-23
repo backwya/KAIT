@@ -1,0 +1,79 @@
+/* sub */
+#sub{z-index: 1;position: relative;margin-top: 50px}
+#sub h2{position: absolute;top: -9999px;left: -9999px}
+#sub > ul > li{float: left;width: 160px;height: 40px;border: 1px solid #55616e;padding: 10;text-align: center;line-height: 40px;box-sizing: border-box}
+#sub > ul > .kait{width: 200px}
+#sub ul ul{display: none;width: 160px;margin-left: -1px;padding-top: 10px;padding-bottom: 10px;border: 1px solid #55616e;background: #fff;line-height: 30px;box-sizing: border-box}
+#sub > ul > li:hover{background: #55616e}
+#sub > ul > li > a{display: block;height: 100%;cursor: default;color: #222;text-decoration: none}
+#sub > ul > li > a:hover{color: #fff}
+#sub li li a{display: block;height: 100%}
+#sub li li:hover{background: #55616e}
+#sub li li a:hover{color: #fff;text-decoration: none}
+
+/* license_info */
+.license_info{z-index: 1;margin-top: 65px}
+.license_info h3{margin: auto;padding: 5px;border-bottom: 2px solid #78afde;text-align: center;font-size: 26px;box-sizing: border-box}
+.license_info > p{margin-top: 20px;text-align: center;font-size: 14px}
+
+/* tab_license */
+.tab_license > div{width: 960px;padding: 30px;border-top: 1px solid #bce1ff;box-sizing: border-box}
+.tab_license{position: relative;width: 960px;margin: 30px 0}
+.license_produce{position: absolute;top: 40px;left: 0;width: 960px}
+.license_produce h4{position: absolute;top: -40px;left: 160px;width: 160px;height: 40px;border: 1px solid #bce1ff;background: #bce1ff;line-height: 40px;text-align: center;box-sizing: border-box;cursor: default}
+.license_test{position: absolute;top: 40px;left: 0;width: 960px}
+.license_test h4{position: absolute;top: -40px;left: 320px;width: 160px;height: 40px;border: 1px solid #bce1ff;background: #fff;line-height: 40px;text-align: center;box-sizing: border-box;cursor: default}
+.license_test > div{display: none}
+.license_area{position: absolute;top: 40px;left: 0;width: 960px}
+.license_area h4{position: absolute;top: -40px;left: 480px;width: 160px;height: 40px;border: 1px solid #bce1ff;background: #fff;line-height: 40px;text-align: center;box-sizing: border-box;cursor: default}
+.license_area > div{display: none}
+.license_problem{position: absolute;top: 40px;left: 0;width: 960px}
+.license_problem h4{position: absolute;top: -40px;left: 640px;width: 160px;height: 40px;border: 1px solid #bce1ff;background: #fff;line-height: 40px;text-align: center;box-sizing: border-box;cursor: default}
+.license_problem > div{display: none}
+
+/* test_info */
+.test_info{z-index: 1;margin-top: 65px}
+.test_info h3{margin: auto;padding: 5px;border-bottom: 2px solid #78afde;text-align: center;font-size: 26px;box-sizing: border-box}
+
+/* tab_test */
+.tab_test > div{width: 960px;padding: 30px;border-top: 1px solid #bce1ff;box-sizing: border-box}
+.tab_test{position: relative;width: 960px;margin: 30px 0}
+.test_material{position: absolute;top: 40px;left: 0;width: 960px}
+.test_material h4{position: absolute;top: -40px;left: 80px;width: 160px;height: 40px;border: 1px solid #bce1ff;background: #bce1ff;line-height: 40px;text-align: center;box-sizing: border-box;cursor: default}
+.test_memo{position: absolute;top: 40px;left: 0;width: 960px}
+.test_memo h4{position: absolute;top: -40px;left: 240px;width: 160px;height: 40px;border: 1px solid #bce1ff;background: #fff;line-height: 40px;text-align: center;box-sizing: border-box;cursor: default}
+.test_memo > div{display: none}
+.test_idcard{position: absolute;top: 40px;left: 0;width: 960px}
+.test_idcard h4{position: absolute;top: -40px;left: 400px;width: 160px;height: 40px;border: 1px solid #bce1ff;background: #fff;line-height: 40px;text-align: center;box-sizing: border-box;cursor: default}
+.test_idcard > div{display: none}
+.test_idcard table{margin-top: 30px}
+.test_cheating{position: absolute;top: 40px;left: 0;width: 960px}
+.test_cheating h4{position: absolute;top: -40px;left: 560px;width: 160px;height: 40px;border: 1px solid #bce1ff;background: #fff;line-height: 40px;text-align: center;box-sizing: border-box;cursor: default}
+.test_cheating > div{display: none}
+.test_disabled{position: absolute;top: 40px;left: 0;width: 960px}
+.test_disabled h4{position: absolute;top: -40px;left: 720px;width: 160px;height: 40px;border: 1px solid #bce1ff;background: #fff;line-height: 40px;text-align: center;box-sizing: border-box;cursor: default}
+.test_disabled > div{display: none}
+/* test_material */
+.test_material table{margin-top: 30px}
+.test_material .sub_p{margin-left: 10px}
+.test_material .sub_p .sub_txt_name2{margin-left: -10px}
+.test_material .sub_txt_name2{margin-left: 20px}
+.test_material .sub_box li{margin-left: 20px;list-style: circle}
+
+/* all */
+.txt_blue{color: #0062aa}
+.sub_p{margin-top: 30px}
+.sub_link{display: inline-block;margin: 5px 0 5px 5px;padding: 5px;background: #bce1ff;text-align: center;border-radius: 15px}
+.sub_link:hover{color: #222;text-decoration: none}
+.sub_link a:hover{color: #222;text-decoration: none}
+.sub_box{display: inline-block;margin-top: 5px;padding: 20px;border: 1px solid #55616e;box-sizing: border-box}
+.sub_txt_name{display: block;margin-bottom: 5px;background: url(../img/txt_num_ico.png) no-repeat left center;text-indent: 25px;font-size: 14px}
+.sub_txt_name2{display: block;background: url(../img/txt_num_ico3.png) no-repeat left center;text-indent: 25px;font-size: 13px}
+.sub_txt_name2 .sub_link{text-indent: 0}
+.sub_txt{display: block;margin: 5px 0 0 10px;line-height: 20px}
+
+/* table */
+table caption{margin-bottom: 5px;background: url(../img/txt_num_ico2.png) no-repeat left center;text-align: left;font-size: 16px;text-indent: 25px}
+table{width: 900px;border-collapse: collapse}
+table th{padding: 5px;border: 1px solid #55616e;background: #78afde;text-align: center;font-weight: normal}
+table td{padding: 5px;border-bottom: 1px solid #55616e;text-align: center}

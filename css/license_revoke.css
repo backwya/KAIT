@@ -1,0 +1,9 @@
+/* license_info */
+.license_info h3{border: 0}
+.sub_txt{margin: 10px 0 0 10px;}
+
+/* revoke_table_wrap */
+.revoke_table_wrap{width: 960px;margin-top: 20px}
+.revoke_table_wrap table{width: 960px}
+.revoke_table_wrap table caption{margin-bottom: 10px;font-size: 18px}
+.revoke_table_wrap table th{font-size: 14px}

@@ -1,0 +1,34 @@
+/* service_notice */
+.service_notice{z-index: 1;padding-top: 70px}
+.service_notice h3{text-align: center;font-size: 26px}
+
+/* service_notice_wrap */
+.service_notice_wrap{width: 960px;margin-top: 30px}
+/* notice_search_wrap */
+.notice_search_wrap{width: 357px;margin: auto}
+#search_val{width: 70px;height: 30px;margin-right: 10px;border: 1px solid #bce1ff;border-radius: 20px}
+#hidden+label{position: absolute;top: -9999px;left: -9999px}
+#search_word{width: 200px;height: 30px;margin-right: 10px;border-bottom: 2px solid #bce1ff}
+.search_notice_btn{display: inline-block;width: 60px;height: 30px;background: #bce1ff;border-radius: 20px}
+/* notice_write */
+.notice_write{display: block;position: absolute;right: 60px;width: 80px;height: 30px;margin-top: 10px;border: 1px solid #bce1ff;text-align: center;line-height: 27px;box-sizing: border-box}
+.notice_write:hover{color: #222;text-decoration: none}
+.service_guide .notice_list{display: block;position: absolute;;right: 0;width: 50px;height: 30px;margin-top: 10px;background: #55616e;text-align: center;line-height: 27px;box-sizing: border-box;color: #fff}
+.notice_list:hover{color: #fff;text-decoration: none}
+/* service_notice_wrap table */
+.service_notice_wrap table{width: 960px;margin-top: 20px}
+.service_notice_wrap table caption{font-size: 18px}
+
+/* notice_pager */
+.notice_pager{width: 121px;overflow: hidden;margin: 30px auto 0}
+.notice_pager li, .notice_pager ul{float: left;margin: 0 5px}
+.notice_pager > ul > li{float: left}
+.notice_pager > ul > li a{display: block;width: 25px;height: 23px}
+.pager_no{width: 25px;height: 23px;border: 1px solid #55616e;text-align: center;line-height: 23px;font-size: 14px}
+.pager_prev{display: block;width: 25px;height: 25px;background: url(../img/pager/pager_prev.png) no-repeat;text-indent: -9999px}
+.pager_next{display: block;width: 25px;height: 25px;background: url(../img/pager/pager_next.png) no-repeat;text-indent: -9999px}
+/*.pager_no1{background: url(../img/pager/pager_no1.png) no-repeat}
+.pager_no2{background: url(../img/pager/pager_no2.png) no-repeat}
+.pager_no3{background: url(../img/pager/pager_no3.png) no-repeat}
+.pager_no4{background: url(../img/pager/pager_no4.png) no-repeat}
+.pager_no5{background: url(../img/pager/pager_no5.png) no-repeat}*/

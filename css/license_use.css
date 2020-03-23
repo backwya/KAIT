@@ -1,0 +1,9 @@
+/* license_info */
+.license_info h3{border: 0}
+
+/* use_table_wrap */
+.use_table_wrap{width: 960px;margin-top: 20px}
+.use_table_wrap table{width: 960px}
+.use_table_wrap .use_table{margin-top: 30px}
+.use_table_wrap table caption{margin-bottom: 10px;font-size: 18px}
+.use_table_wrap table th{font-size: 14px}

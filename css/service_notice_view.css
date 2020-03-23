@@ -1,0 +1,14 @@
+/* service_notice */
+.service_notice{z-index: 1;padding-top: 80px}
+.service_notice h3{text-align: center;font-size: 26px}
+/* service_notice_wrap */
+.service_notice_wrap{margin-top: 30px}
+.board_name{height: 50px;background:  #55616e;text-align: center;font-size: 18px;line-height: 50px;color: #fff}
+.span_wrap{margin: 10px 0 15px;float: right}
+.board_date{margin-right: 20px}
+.board_content{clear: both;overflow-y:auto ;height: 500px;padding: 30px;border: 2px solid #cbcbcb;font-size: 14px;box-sizing: border-box}
+.board_menu_wrap{width:186px;margin: 20px auto}
+.board_menu_wrap a{display: inline-block;width: 50px;height: 30px;margin: 0 5px;background: #55616e;text-align: center;line-height: 30px;color: #fff}
+.board_menu_wrap a:hover{color: #fff;text-decoration: none}
+.notice_board_list a{display: block;width: 50px;height: 30px;margin: 20px auto;background: #55616e;text-align: center;line-height: 30px;color: #fff}
+.notice_board_list a:hover{color: #fff;text-decoration: none}

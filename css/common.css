@@ -1,0 +1,146 @@
+@font-face{
+font-family: 'Noto Sans KR';
+font-style: normal;
+font-weight: 400;
+src: url(../font/NotoSansKR-Regular.woff2) format('woff2'),
+url(../font/NotoSansKR-Regular.woff) format('woff'),
+url(../font/NotoSansKR-Regular.otf) format('opentype');
+}
+@font-face{
+font-family: 'Noto Sans KR';
+font-style: normal;
+font-weight: 700;
+src: url(../font/NotoSansKR-Bold.woff2) format('woff2'),
+url(../font/NotoSansKR-Bold.woff) format('woff'),
+url(../font/NotoSansKR-Bold.otf) format('opentype');
+}
+
+/* common */
+body, p, h1, h2, h3, h4, h5, ul, li, a, address, fieldset, input, button, select{margin: 0;padding: 0;border: 0;font-family: 'Noto Sans KR', "맑은고딕", "돋움"; font-weight: normal;font-size: 13px}
+textarea{font-family: 'Noto Sans KR', "맑은고딕", "돋움"}
+h1, h2, h3, h4, h5, p, li, ul, address, th, td{cursor: default}
+header, main, footer, section, article, button{display: block}
+input, label, button{vertical-align: middle}
+ul,li{list-style: none}
+address{font-style: normal}
+a:link, a:visited, a:active{color: #222;text-decoration: none}
+a:hover{color: #0171b9;text-decoration: underline}
+button{cursor: pointer}
+
+/* clearfix */
+.clearfix{zoom: 1}
+.clearfix:before, .clearfix:after{display: table;content: ""}
+.clearfix:after{clear: both}
+
+/* skip_menu */
+.skip_menu{position: relative}
+.skip_menu a{position: absolute;top: -60px;left: 0;width: 100%;background: #333;text-align: center}
+.skip_menu a:active, .skip_menu a:focus{z-index: 1000;top: 0;text-decoration: none}
+.skip_menu span{display: inline-block;padding: 2px 6px 00;color: #fff;letter-spacing: -1px;font-size: 13px;line-height: 26px;}
+
+/* wrap */
+#all_wrap{position: relative;overflow-y: auto;overflow-x: hidden;min-width: 960px}
+
+/* header */
+#header{z-index: 10}
+#header .header_logo_wrap{position: relative;width: 960px;margin: auto}
+#header .header_logo_wrap a{z-index: 10;display: block;position: absolute;top: 10px;width: 110px;height: 40px;background: url(../img/index/header_logo.png) no-repeat;text-indent: -9999px}
+
+/* top_menu */
+.top_menu_wrap{height: 60px;background: #fff}
+.top_menu_wrap .top_menu{position: relative;overflow: hidden;width: 960px;margin: auto}
+.top_menu_wrap .top_menu h2{position: absolute;top: -9999px;left: -9999px}
+.top_menu_wrap .top_menu ul{float: right;margin-top: 25px}
+.top_menu_wrap .top_menu ul li{float: left;margin-right: 10px}
+.top_menu_wrap .top_menu .top_lang_ko{display: block;width: 18px;height: 19px;background: url(../img/index/top_menu_korean_ico.png) no-repeat center;text-indent: -9999px}
+.top_menu_wrap .top_menu .top_lang_ko:hover{display: block;width: 18px;height: 20px;background: url(../img/index/top_menu_korean_hover.png) no-repeat center;text-indent: -9999px}
+.top_menu_wrap .top_menu .top_lang_en{display: block;width: 18px;height: 19px;margin: 0 -10px 0 -5px;background: url(../img/index/top_menu_english_ico.png) no-repeat center;text-indent: -9999px}
+.top_menu_wrap .top_menu .top_lang_en:hover{display: block;width: 18px;height: 20px;background: url(../img/index/top_menu_english_hover.png) no-repeat center;text-indent: -9999px}
+
+/* gnb */
+#gnb{z-index: 2;position: relative;height: 60px;border-top: 1px solid #cbcbcb;border-bottom: 1px solid #cbcbcb;background: #fff;box-sizing: border-box}
+#gnb .main_menu{position: relative;overflow: hidden;width: 960px;margin: auto}
+#gnb .main_menu h3{position: absolute;top: -9999px;left: -9999px}
+#gnb .main_menu > ul{overflow: hidden}
+#gnb .main_menu > ul > li{float: left}
+#gnb .main_menu ul ul{z-index: 2;display: none;position: relative;height: 250px;padding: 75px 0 20px;box-sizing: border-box}
+#gnb .main_menu li li{text-align: center;line-height: 30px}
+#gnb .main_menu li li a{display: block;height: 100%}
+#gnb .main_menu li li:hover{background: #bce1ff}
+#gnb .main_menu li li a:hover{color: #222;text-decoration: none}
+#gnb .main_menu .gnb_qualify{display: block;width: 106px;height: 60px;background: url(../img/index/gnb_qualify.gif) no-repeat center;text-indent: -9999px}
+#gnb .main_menu .gnb_test{display: block;width: 107px;height: 60px;background: url(../img/index/gnb_test.gif) no-repeat center;text-indent: -9999px}
+#gnb .main_menu .gnb_success{display: block;width: 106px;height: 60px;background: url(../img/index/gnb_success.gif) no-repeat center;text-indent: -9999px}
+#gnb .main_menu .gnb_license{display: block;width: 141px;height: 60px;background: url(../img/index/gnb_license.gif) no-repeat center;text-indent: -9999px}
+#gnb .main_menu .gnb_customer{display: block;width: 107px;height: 60px;background: url(../img/index/gnb_customer.gif) no-repeat center;text-indent: -9999px}
+/* sub_bg */
+#gnb .bg_wrap{width: 960px;margin: auto}
+#gnb .sub_bg{z-index: 1;display: none;position: absolute;top: 58px;width: 577px;height: 270px;background: #fff;border-top: 1px solid #cbcbcb;box-shadow: 0px 2px 3px #222;box-sizing: border-box}
+#gnb .sub_bg .sub_bg_ico1{display: none;position: absolute;top: 20px;left: 38px;width: 40px;height: 40px;background: url(../img/sub_bg_ico1.png) no-repeat}
+#gnb .sub_bg .sub_bg_ico2{display: none;position: absolute;top: 20px;left: 145px;width: 40px;height: 40px;background: url(../img/sub_bg_ico2.png) no-repeat}
+#gnb .sub_bg .sub_bg_ico3{display: none;position: absolute;top: 20px;left: 252px;width: 40px;height: 40px;background: url(../img/sub_bg_ico3.png) no-repeat}
+#gnb .sub_bg .sub_bg_ico4{display: none;position: absolute;top: 20px;left: 360px;width: 60px;height: 40px;background: url(../img/sub_bg_ico4.png) no-repeat}
+#gnb .sub_bg .sub_bg_ico5{display: none;position: absolute;top: 20px;left: 495px;width: 40px;height: 40px;background: url(../img/sub_bg_ico5.png) no-repeat}
+
+/* user_menu */
+.user_menu{z-index: 3;position: relative;top: -60px;width: 960px;margin: auto}
+.user_menu h2{position: absolute;top: -9999px;left: -9999px}
+/* user_mypage */
+.user_menu .user_mypage > a{display: block;position: absolute;right: 60px;width: 60px;height: 60px;background: url(../img/index/user_mypage_btn.gif) no-repeat;text-indent: -9999px}
+/* user_mypage_non_members */
+.user_mypage_non_members{
+z-index: 1;display: none;position: absolute;top: 60px;right: 0;width: 250px;height: 135px;background: #fff;border-radius: 5px;box-shadow: 0px 0px 3px #222}
+.user_mypage_login{display: block;position: absolute;top: 30px;left: 50px;width: 150px;height: 30px;background: url(../img/index/user_mypage_login_btn.png) no-repeat;text-indent: -9999px}
+.user_mypage_reg{display: block;position: absolute;top: 75px;left: 50px;width: 150px;height: 30px;background: url(../img/index/user_mypage_reg_btn.png) no-repeat;text-indent: -9999px}
+/* user_mypage_members */
+.user_mypage_members{display: none;position: absolute;top: 60px;right: 0;width: 250px;height: 200px;background: #fff;border-radius: 5px;box-shadow: 0px 0px 5px #222}
+.user_mypage_members_pic{display: block;position: absolute;top: 30px;left: 30px;width: 60px;height: 70px;border: 1px solid #cbcbcb;box-sizing: border-box}
+.user_mypage_members_name{position: absolute;top: 30px;left: 110px}
+.user_mypage_members_birth{position: absolute;top: 50px;left: 110px}
+.user_mypage_members_edit{display: block;position: absolute;top: 75px;left: 110px;width: 110px;height: 25px;background: url(../img/index/user_mypage_members_edit_btn.png) no-repeat;text-indent: -9999px}
+.user_mypage_members ul{position: absolute;top: 120px;left: 20px;width: 220px;overflow: hidden}
+.user_mypage_members li{float: left;margin: 5px 10px}
+.user_mypage_members li:nth-child(4){margin: 5px 28px}
+/* all_menu */
+.user_menu .user_allmenu > a{display: block;position: absolute;right: 0;width: 60px;height: 60px;background: url(../img/index/user_allmenu_btn.gif) no-repeat;text-indent: -9999px}
+.user_allmenu_wrap{display: none;position: absolute;width: 960px;height: 220px;background: #fff;border: 1px solid #78afde;box-sizing: border-box}
+.user_allmenu_wrap > ul{overflow: hidden;position: absolute;left: 100px}
+.user_allmenu_wrap > ul > li{float: left;margin: 20px 30px;text-align: center}
+.user_allmenu_wrap span{padding-bottom: 2px;
+border-bottom: 1px solid #78afde}
+.user_allmenu_wrap li ul{padding-top: 6px}
+.user_allmenu_wrap > ul > li li{line-height: 25px;text-align: center}
+
+/* main */
+.navi_bg{position: absolute;width: 100%;height: 169px;background: #55616e;box-sizing: border-box}
+.main{position: relative;width: 960px;margin: auto}
+.main > section > h2{position: relative;text-align: center;font-size: 40px;margin-top: 30px;color: #fff}
+.navi{margin-top: 10px;text-align: center}
+.navi a{color: #fff}
+.navi_home{width: 20px;height: 14px;background: url(../img/navi_home.png) no-repeat left 2px;padding-left: 20px;padding-right: 10px}
+.navi_next{display: inline-block;width: 7px;height: 16px;background: url(../img/navi_next.png) no-repeat left 4px;text-indent: -9999px}
+.navi_txt{padding-left: 5px;padding-right: 5px}
+
+/* footer */
+.footer_wrap{position: relative;height: 190px;background: #fff;margin-top: 50px}
+.footer_wrap .scroll_top{display: block;height: 40px;background: url(../img/footer_up.gif) #55616e no-repeat center;text-indent: -9999px;line-height: 40px;box-sizing: border-box}
+.footer{position: relative;width: 960px;margin: auto}
+.footer h2{float: left;width: 262px;height: 70px;margin-top: 39px;background: url(../img/index/footer_logo.gif) no-repeat;text-indent: -9999px}
+/* footer_terms */
+.footer_terms{z-index: 1;position: absolute;top: 30px;left: 300px}
+.footer_terms h3{position: absolute;top: -9999px;left: -9999px}
+.footer_terms li{float: left;margin-right: 10px}
+/* family_site */
+.footer_family_site{z-index: 1;position: absolute;top: 30px;right: 0}
+.footer_family_site h3{width: 150px;height: 25px;border: 1px solid #cbcbcb;text-align: center;line-height: 23px;cursor: pointer}
+.footer_family_site ul{display: none}
+.footer_family_site li{width: 150px;height: 25px;border: 1px solid #cbcbcb;margin-top: 7px;text-align: center;line-height: 22px}
+.footer_family_site li:hover{background: #bce1ff}
+.footer_family_site li a:hover{color: #222;text-decoration: none}
+.footer_family_site > a{display: block;width: 9px;height: 9px;margin-top: -17px;margin-left: 135px;background: url(../img/index/footer_family_site_btn.png) no-repeat;text-indent: -9999px}
+/* info */
+.footer_info{position: absolute;top: 60px;left: 300px}
+.footer_ceo{float: left;clear: both}
+.footer_post, address{float: left;padding-right: 10px}
+.footer_business, .footer_tel{float: left;padding-left: 10px}
+.footer_copyright{clear: both}

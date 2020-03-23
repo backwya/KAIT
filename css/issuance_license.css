@@ -1,0 +1,22 @@
+/* issuance_license */
+.issuance_license{z-index: 1;padding-top: 70px}
+.issuance_license h3{text-align: center;font-size: 26px}
+
+/* issuance_kait_wrap */
+.issuance_license_wrap{width: 960px;margin-top: 30px}
+.issuance_license_index{display: block;width: 960px;height: 70px;background: url(../img/issuance_index.gif) no-repeat;text-indent: -9999px;box-sizing: border-box}
+.issuance_license_wrap table caption{margin-top: 30px}
+
+/* issuance_license_img */
+.issuance_license_img{width: 608px;height: 203px;padding: 10px;border: 2px solid #bce1ff;box-sizing: border-box}
+.issuance_license_img span{display: block;float: left}
+.issuance_license_img1{width: 281px;height: 177px;margin-right: 20px;background: url(../img/issuance_license_img1.jpg) no-repeat;text-indent: -9999px}
+.issuance_license_img2{width: 281px;height: 177px;background: url(../img/issuance_license_img2.jpg) no-repeat;text-indent: -9999px}
+
+/* issuance_license_btn */
+.issuance_license_btn{width: 220px;margin: 50px auto 0}
+.issuance_license_btn a{display: block;float: left;width: 100px;height: 40px;font-size: 14px;text-align: center;line-height: 38px}
+.issuance_license_btn .license_apply{color: #222;text-decoration: none}
+.license_apply{margin-right: 20px;background: #bce1ff}
+.issuance_license_btn .license_apply_list{color: #fff;text-decoration: none}
+.license_apply_list{background: #55616e}

@@ -1,0 +1,27 @@
+/* success_problem */
+.success_problem{z-index: 1;padding-top: 70px}
+.success_problem h3{text-align: center;font-size: 26px}
+
+/* success_problem_wrap */
+.success_problem_wrap{width: 960px;margin-top: 30px}
+table{width: 960px}
+
+/* problem_search_wrap */
+.problem_search_wrap{width: 469px;margin: 0 auto 20px}
+#select_license{width: 100px;height: 30px;margin-right: 10px;padding-left: 30px;border: 1px solid #bce1ff;border-radius: 20px;box-sizing: border-box}
+#search_val{width: 70px;height: 30px;margin-right: 10px;border: 1px solid #bce1ff;border-radius: 20px;box-sizing: border-box}
+.search_name{width: 200px;height: 30px;margin-right: 10px;border-bottom: 2px solid #bce1ff}
+.search_problem_btn{display: inline-block;width: 60px;height: 30px;background: #bce1ff;border-radius: 20px}
+
+/* problem_pager */
+.problem_pager{width: 255px;overflow: hidden;margin: 30px auto 0}
+.problem_pager a, .problem_pager ul{float: left;margin: 0 5px}
+.problem_pager > ul > li{float: left}
+.problem_pager > ul > li a{display: block;width: 25px;height: 25px;text-indent: -9999px}
+.pager_prev{display: block;width: 25px;height: 25px;background: url(../img/pager/pager_prev.png) no-repeat;text-indent: -9999px}
+.pager_next{display: block;width: 25px;height: 25px;background: url(../img/pager/pager_next.png) no-repeat;text-indent: -9999px}
+.pager_no1{background: url(../img/pager/pager_no1.png) no-repeat}
+.pager_no2{background: url(../img/pager/pager_no2.png) no-repeat}
+.pager_no3{background: url(../img/pager/pager_no3.png) no-repeat}
+.pager_no4{background: url(../img/pager/pager_no4.png) no-repeat}
+.pager_no5{background: url(../img/pager/pager_no5.png) no-repeat}

@@ -1,0 +1,11 @@
+/* test_accept_guide */
+.test_accept_guide{clear: both;z-index: 1;padding-top: 70px}
+.test_accept_guide h3{text-align: center;font-size: 26px}
+
+/* accept_guide_wrap */
+.accept_guide_wrap{width: 960px;margin-top: 30px}
+.accept_guide_index{display: block;width: 960px;height: 70px;background: url(../img/test_guide_index.gif) no-repeat;text-indent: -9999px;box-sizing: border-box}
+
+/* all */
+.sub_txt_name{font-size: 16px}
+.sub_txt_name2{margin-top: 15px;background: url(../img/txt_num_ico3.png) no-repeat left 4px}

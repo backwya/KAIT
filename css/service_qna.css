@@ -1,0 +1,47 @@
+/* service_advice */
+.service_qna{z-index: 1;padding-top: 70px}
+.service_qna h3{text-align: center;font-size: 26px}
+
+/* service_advice_wrap */
+.service_qna_wrap{clear: both;width: 960px;margin-top: 30px}
+/* search_qna */
+.qna_search_wrap{width: 356px;margin: auto}
+#search_val{width: 70px;height: 30px;margin-right: 10px;border: 1px solid #bce1ff;border-radius: 20px}
+.search_name{width: 200px;height: 30px;margin-right: 10px;border-bottom: 2px solid #bce1ff}
+.search_qna_btn{display: inline-block;width: 60px;height: 30px;background: #bce1ff;border-radius: 20px}
+
+/* tab_qna */
+.tab_qna span{cursor: default}
+.tab_qna > div{padding : 10px 0;border-top: 1px solid #bce1ff;box-sizing: border-box}
+.tab_qna{position: relative;width: 960px;height: 350px;margin: 30px 0}
+.tab_qna .qna_support{position: absolute;top: 40px;left: 0;width: 960px}
+.qna_support h4{position: absolute;top: -40px;left: 0px;width: 160px;height: 40px;border: 1px solid #bce1ff;background: #bce1ff;line-height: 40px;text-align: center;box-sizing: border-box;cursor: default}
+.tab_qna .qna_refund{position: absolute;top: 40px;left: 0;width: 960px}
+.qna_refund h4{position: absolute;top: -40px;left: 160px;width: 160px;height: 40px;border: 1px solid #bce1ff;background: #fff;line-height: 40px;text-align: center;box-sizing: border-box;cursor: default}
+.qna_refund > div{display: none}
+.tab_qna .qna_dissent{position: absolute;top: 40px;left: 0;width: 960px}
+.qna_dissent h4{position: absolute;top: -40px;left: 320px;width: 160px;height: 40px;border: 1px solid #bce1ff;background: #fff;line-height: 40px;text-align: center;box-sizing: border-box;cursor: default}
+.qna_dissent > div{display: none}
+.tab_qna .qna_change{position: absolute;top: 40px;left: 0;width: 960px}
+.qna_change h4{position: absolute;top: -40px;left: 480px;width: 160px;height: 40px;border: 1px solid #bce1ff;background: #fff;line-height: 40px;text-align: center;box-sizing: border-box;cursor: default}
+.qna_change > div{display: none}
+.tab_qna .qna_license{position: absolute;top: 40px;left: 0;width: 960px}
+.qna_license h4{position: absolute;top: -40px;left: 640px;width: 160px;height: 40px;border: 1px solid #bce1ff;background: #fff;line-height: 40px;text-align: center;box-sizing: border-box;cursor: default}
+.qna_license > div{display: none}
+.tab_qna .qna_etc{position: absolute;top: 40px;left: 0;width: 960px}
+.qna_etc h4{position: absolute;top: -40px;left: 800px;width: 160px;height: 40px;border: 1px solid #bce1ff;background: #fff;line-height: 40px;text-align: center;box-sizing: border-box;cursor: default}
+.qna_etc > div{display: none}
+
+/* all */
+.bg_dark{display: inline-block;margin-top: 5px;padding: 5px;background: #55616e;color: #fff}
+.tab_qna > div > div > h5{width: 960px;height: 40px;margin: 10px 0 0;border-top: 1px solid #55616e;border-bottom: 1px solid #55616e;background: #bce1ff;line-height: 37px;font-weight: normal;font-size: 16px;text-align: center;cursor: default;box-sizing: border-box}
+.tab_qna > div > div > p{display: none;padding: 20px 0 15px}
+
+/* qna_etc */
+.etc_content{display: none}
+.etc_content p{margin-top: 20px}
+.qna_etc table{width: 960px;margin: 10px 0 20px}
+
+/* qna_pager */
+.qna_pager{width: 25px;overflow: hidden;margin: 30px auto 0}
+.pager_no1{display: block;width: 25px;height: 25px;background: url(../img/pager/pager_no1.jpg) no-repeat;text-indent: -9999px}

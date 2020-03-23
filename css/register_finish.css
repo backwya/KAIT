@@ -1,0 +1,10 @@
+/* reg_fin */
+.reg_fin{position: relative;width: 960px;height: 399px;margin: 50px auto 0}
+.reg_fin p{font-size: 18px;text-align: center}
+.reg_fin_skip{width: 500px;overflow: hidden;margin: 20px auto 0}
+.reg_fin a{display: block;width: 240px;height: 70px;float: right;font-size: 16px;text-align: center;line-height: 70px;box-sizing: border-box}
+.reg_fin a:hover{color: #222;text-decoration: none}
+.login_skip{border: 1px solid #78afde}
+.login_skip:hover{background: #78afde}
+.main_skip{border: 1px solid #55616e;margin-right: 20px}
+.main_skip:hover{background: #55616e;color: #fff}
